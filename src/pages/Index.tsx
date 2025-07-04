@@ -1,3 +1,4 @@
+
 import { Mail, ArrowDown, Cat, PenTool, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -29,7 +30,7 @@ const Index = () => {
           <div className="space-y-6">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 leading-tight">
               Hello! I'm{" "}
-              <span className="font-medium bg-gradient-to-r from-gray-700 to-gray-900 bg-clip-text text-transparent">
+              <span className="font-medium bg-gradient-to-r from-gray-700 via-gray-900 to-gray-600 bg-clip-text text-transparent animate-pulse bg-[length:200%_100%] hover:animate-none transition-all duration-300">
                 Hamsika Iyer
               </span>
               , a product designer with 3 and half years of experience working with{" "}
