@@ -1,5 +1,4 @@
-
-import { Mail, ArrowDown } from "lucide-react";
+import { Mail, ArrowDown, Cat, PenTool, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Index = () => {
@@ -38,16 +37,16 @@ const Index = () => {
             </h1>
           </div>
 
-          {/* Social Icons Placeholder */}
+          {/* Social Icons */}
           <div className="flex justify-center gap-6 py-8">
-            <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors cursor-pointer">
-              <div className="w-5 h-5 bg-gray-400 rounded"></div>
+            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-gray-50 transition-colors cursor-pointer shadow-sm border">
+              <Cat className="w-6 h-6 text-gray-600" />
             </div>
-            <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors cursor-pointer">
-              <div className="w-5 h-5 bg-gray-400 rounded"></div>
+            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-gray-50 transition-colors cursor-pointer shadow-sm border">
+              <PenTool className="w-6 h-6 text-gray-600" />
             </div>
-            <div className="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition-colors cursor-pointer">
-              <div className="w-5 h-5 bg-gray-400 rounded"></div>
+            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center hover:bg-gray-50 transition-colors cursor-pointer shadow-sm border">
+              <Building2 className="w-6 h-6 text-gray-600" />
             </div>
           </div>
 
