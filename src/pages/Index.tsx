@@ -1,5 +1,4 @@
 
-
 import { Mail, ArrowDown, Cat, PenTool, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -16,6 +15,13 @@ const Index = () => {
           <div className="inline-flex items-center gap-2 text-sm text-gray-600 bg-white px-4 py-2 rounded-full shadow-sm border">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
             Available for new projects
+          </div>
+          <div className="text-xs text-gray-400 mt-2">
+            {new Date().toLocaleDateString('en-US', { 
+              month: 'short', 
+              day: 'numeric', 
+              year: 'numeric' 
+            })}
           </div>
         </div>
 
@@ -84,4 +90,3 @@ const Index = () => {
 };
 
 export default Index;
-
