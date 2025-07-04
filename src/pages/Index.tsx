@@ -43,11 +43,7 @@ const Index = () => {
 
           {/* Discover Section */}
           <div className="space-y-4">
-            <p className="text-gray-600 max-w-md mx-auto leading-relaxed">
-              Wondering what this is? Well, this is supposed to be my personal website. 
-              I got the domain, but I haven't collected enough brain cells to sit down 
-              and actually build one.
-            </p>
+            <p className="text-gray-600 max-w-md mx-auto leading-relaxed">This is supposed to be my personal website. I got the domain, but I haven't gotten enough motivation to sit down and actually build one.</p>
             
             <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
               <span>Until then</span>
