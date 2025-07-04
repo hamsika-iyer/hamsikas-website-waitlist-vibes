@@ -1,13 +1,10 @@
 import { Mail, ArrowDown, Cat, PenTool, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const Index = () => {
   const handleEmailClick = () => {
     window.location.href = "mailto:hamsikaiyer.work@gmail.com";
   };
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
+  return <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center p-4">
       <div className="max-w-4xl w-full">
         {/* Header Status */}
         <div className="text-center mb-12">
@@ -15,13 +12,7 @@ const Index = () => {
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
             Available for new projects
           </div>
-          <div className="text-xs text-gray-400 mt-2">
-            {new Date().toLocaleDateString('en-US', { 
-              month: 'short', 
-              day: 'numeric', 
-              year: 'numeric' 
-            })}
-          </div>
+          
         </div>
 
         {/* Main Content */}
@@ -66,10 +57,7 @@ const Index = () => {
 
           {/* Email CTA */}
           <div className="pt-8">
-            <Button 
-              onClick={handleEmailClick}
-              className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl"
-            >
+            <Button onClick={handleEmailClick} className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-xl">
               <Mail className="w-4 h-4 mr-2" />
               Reach out via email
             </Button>
@@ -84,8 +72,6 @@ const Index = () => {
           <p>© 2024 Hamsika Iyer • Coming Soon</p>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
